@@ -1,16 +1,11 @@
-# one_signal_test
+# Flutter + OneSignal
 
-A new Flutter application.
+Aplicativo feito em Flutter, para o aprendizado do uso de push notifications usando o serviço do OneSignal.
 
-## Getting Started
+## Artigo Medium
 
-This project is a starting point for a Flutter application.
+Este app foi feito para estudos, e juntamente com ele escrevi um artigo, abordando algumas das configurações
+que podem ser feitas dentro do Flutter, para tratar as notificações do OneSignal.
 
-A few resources to get you started if this is your first Flutter project:
+- [Artigo Medium](https://medium.com/@lucasvp611/push-notifications-como-configurar-fun%C3%A7%C3%B5es-do-onesignal-no-flutter-para-android-8b330db84ef)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
