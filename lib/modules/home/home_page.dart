@@ -44,32 +44,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: Center(
-          child: RaisedButton(
-            //color: Colors.red,
-            child: Text('CLICA AQUI VAI'),
-            onPressed: () async {
-              
-              OneSignal.shared
-                  .setInAppMessageClickedHandler((OSInAppMessageAction action) {
-                print('Voce clicou em uma InApp notification');
-              });
-
-              OneSignal.shared.setEmail(email: 'email@email.com');
-              //OneSignal.logoutEmail();
-              // Provider.of<HomeController>(context, listen: false)
-              //     .store
-              //     .iOneSignalNotification
-              //     .changeNotificationStatus(true);
-              // Provider.of<HomeController>(context, listen: false)
-              //     .store
-              //     .iOneSignalNotification
-              //     .postNotification(['024b641f-95e8-4020-8513-16c9c26427da'], "Conteudo", "Titulo");
-            },
-          ),
-        ),
-      ),
+      body: Container(),
     );
   }
 }
